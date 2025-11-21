@@ -8,6 +8,7 @@ Este projeto é desenvolvido para o **Instituto I2A2** e tem como objetivo organ
 ├── 📂 data/
 |   ├──process          # dados organizados ou processados
 |   └──raw              # dados bruto, baixados ou coletados
+├── 📂 image/   
 ├── 📂 notebook/       
 ├── 📂 sandbox/         # Códigos baguncados
 ├── 📂 src/             # funcoes e codigos complementares
