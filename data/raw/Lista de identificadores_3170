@@ -1,0 +1,45 @@
+Lista de identificadores
+V	Variável
+841	Pessoas de 10 anos ou mais de idade, com rendimento
+1000841	Pessoas de 10 anos ou mais de idade, com rendimento - percentual do total geral
+842	Valor do rendimento nominal médio mensal das pessoas de 10 anos ou mais de idade, com rendimento
+843	Valor do rendimento nominal mediano mensal das pessoas de 10 anos ou mais de idade, com rendimento
+C2	Sexo
+6794	Total
+4	Homens
+5	Mulheres
+C1	Situação do domicílio
+6795	Total
+1	Urbana
+2	Rural
+C58	Grupo de idade
+95253	Total
+1142	10 a 14 anos
+1143	15 a 19 anos
+2792	15 a 17 anos
+110992	18 ou 19 anos
+1144	20 a 24 anos
+1145	25 a 29 anos
+1146	30 a 34 anos
+1147	35 a 39 anos
+1148	40 a 44 anos
+1149	45 a 49 anos
+1150	50 a 54 anos
+1151	55 a 59 anos
+3520	60 a 69 anos
+3244	70 anos ou mais
+P	Ano
+2010	2010
+T	Unidade Territorial
+1	Brasil
+2	Grande Região
+3	Unidade da Federação
+8	Mesorregião Geográfica
+9	Microrregião Geográfica
+6	Município
+10	Distrito
+11	Subdistrito
+102	Bairro
+7	Região Metropolitana até 2020
+13	Região Metropolitana e Subdivisão até 2020
+14	Região Integrada de Desenvolvimento até 2020
