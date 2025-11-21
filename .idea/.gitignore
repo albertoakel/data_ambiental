@@ -1,6 +1,8 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# PyCharm
+.idea/
+*.iml
+.misc.xml
+workspace.xml
 
 # Diretórios temporários
 **/.virtual_documents/
