@@ -1,3 +1,12 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Diretórios temporários
+**/.virtual_documents/
+**/.ipynb_checkpoints/
+**/__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+.idea/
