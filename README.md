@@ -4,9 +4,17 @@ Este projeto é desenvolvido para o **Instituto I2A2** e tem como objetivo organ
 
 ---
 
-## Estrutura do Repositório
-
-
+## 📁 Estrutura do Projeto
+```
+📁 Data_ambiental/
+├── 📂 data/
+|   ├──process
+|   └──process
+├── 📂 notebook/
+├── 📂 sandbox/ 
+├── 📂 src/
+└── README.md
+```
 ---
 
 
