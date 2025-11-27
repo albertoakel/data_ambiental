@@ -30,11 +30,11 @@
 ### 2.1. Dataset 1 – Socioeconômico (`tabela_total_final.csv`)
 - **Bairro:** Nome do bairro de Belém.  
 - **Habitações:** Número total de habitações no bairro.  
-- **Moradores:** Número total de moradores no bairro.  
-- **Média:** Média de moradores por habitação (`Moradores ÷ Habitações`).  
-- **N:** Número de moradores com renda registrada.  
-- **avg:** Renda média dos moradores do bairro.  
-- **mdn:** Mediana da renda dos moradores do bairro.  
+- **Mor:** Número total de moradores no bairro.  
+- **Mor/Hab:** Média de moradores por habitação (`Moradores ÷ Habitações`).  
+- **N_ren:** Número de moradores com renda registrada.  
+- **ren_avg:** Renda média dos moradores do bairro.  
+- **ren_mdn:** Mediana da renda dos moradores do bairro.  
 
 ### 2.2. Dataset 2 – Setores de coleta (`shape_coleta.gpkg`)
 - **Setor (número):** Identificação do setor de coleta.  
