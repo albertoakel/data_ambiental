@@ -16,7 +16,7 @@ O panorama do descarte irregular em Belém é caracterizado por uma coleta de li
 
 O tecido social de Belém é marcado por significativa desigualdade. A renda média da cidade é de R$ 1.194,20, mas a renda mediana é drasticamente menor, de R$ 698,88, um sinal claro da concentração de renda em patamares baixos. Com efeito, 80,28% dos bairros têm uma renda mediana de R$ 605,00 ou menos. A distribuição populacional também é desigual, com quase metade dos bairros (46,48%) abrigando até 5.132 moradores. O Índice de Desenvolvimento Humano (IDH) varia, com a maior parte dos bairros (cerca de 49%) concentrando-se em faixas consideradas médias. Figura 2 
 
-![Figura 2](/home/akel/PycharmProjects/Data_ambiental/image/Mapa_bairro_ren_mdn.png)
+![Figura 2](/image/Mapa_bairro_ren_mdn.png)
 
 **Figura 2:**
 
@@ -26,13 +26,13 @@ O tecido social de Belém é marcado por significativa desigualdade. A renda mé
 
 Existe uma relação clara e estatisticamente significativa entre a prosperidade de um bairro e a ocorrência de descarte irregular. Bairros com maior renda média e melhor IDH tendem a registrar menos descarte irregular. Esta correlação negativa é evidenciada pelos coeficientes de `ren_avg` vs `QTI` ($r = -0,4406$) e `IDH` vs `QTI` ($r = -0,4399$). De forma mais ampla, a variável DIEs correlaciona-se negativamente com `IDH` ($r = -0,477$) e `ren_avg` ($r = -0,443$), reforçando que piores condições de vida estão intrinsecamente ligadas a maiores índices do problema. 
 
-![Figura 3](/home/akel/PycharmProjects/Data_ambiental/image/IDH_QTI.png.png)**Figura 3**: Relação entre Moradores, renda média, e IDH com QTI( Quantidade de Depósitos Irregulares)
+![Figura 3](image/IDH_QTI.png.png)**Figura 3**: Relação entre Moradores, renda média, e IDH com QTI( Quantidade de Depósitos Irregulares)
 
 ### O Efeito Amplificador do Território e da Densidade Populacional
 
 As características físicas e demográficas dos bairros atuam como um catalisador para o descarte irregular. Bairros com maior extensão territorial (`area_km2`) apresentam uma correlação positiva moderada ($r = 0,564$) com a existência de mais DIEs. O tamanho da população também é um fator de risco, com uma correlação positiva moderada entre `Mor` e `QTI` ($r = 0,4847$). Ademais, o adensamento residencial, medido por Moradores por Habitação (`Mor/Hab`), também mostra uma correlação positiva ($r = 0,420$), sugerindo que a falta de espaço para armazenamento doméstico contribui para o descarte em vias públicas.
 
-![Figura 4](/home/akel/PycharmProjects/Data_ambiental/image/Figura4.png)
+![Figura 4](/image/Figura4.png)
 
 **Figura 4**: Relação entre Area[km2], moradores/Habitantes e moradores com renda com QTI( Quantidade de Depósitos Irregulares)
 
@@ -46,7 +46,7 @@ A maior extensão territorial cria um ambiente propício para o descarte irregul
 
 A infraestrutura operacional desigual funciona como um gatilho direto para o descarte. A confirmação estatística de que uma menor frequência de coleta correlaciona-se com mais DIEs ($r = -0,2557$) sublinha a necessidade urgente de reestruturar o serviço. A solução passa por aumentar a frequência de coleta nos bairros periféricos de alta vulnerabilidade, equiparando-a ao padrão das áreas centrais.
 
-![Figura 5](/home/akel/PycharmProjects/Data_ambiental/image/figura5.png)
+![Figura 5](image/figura5.png)
 
 **Figura 5**: Número de dias médios de coleta de lixo.
 
