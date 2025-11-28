@@ -3,10 +3,10 @@
 
 ## Descrição dos  Notebooks
 
-### [EDA](./notebook/EDA.ipynb)
+### [EDA](notebook/EDA.ipynb)
 A análise busca identificar padrões que possam explicar a ocorrência de Depósitos Irregulares de Entulho (DIEs) e como esses eventos se distribuem espacialmente em função das condições sociais e estruturais de cada bairro.
 
-### [Mapa_Bairros_plotly](./notebooks/Mapa_Bairros_plotly.ipynb)
+### [Mapa_Bairros_plotly](notebook/Mapa_Bairros_plotly.ipynb)
 Cria um mapa interativo que integra dados geográficos dos bairros com indicadores socioeconômicos e pontos de descarte irregular.
 
 ### [Mapa_Setores_coleta_Folium](notebook/Mapa_Setores_coleta_Folium.ipynb)
