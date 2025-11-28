@@ -18,7 +18,7 @@ O tecido social de Belém é marcado por significativa desigualdade. A renda mé
 
 ![Figura 2](/image/Mapa_bairro_ren_mdn.png)
 
-**Figura 2:**
+**Figura 2:** Mapa dos Bairros de Belém da mediana da renda da populacao.
 
 ## Insights para o Descarte Irregular de Lixo
 
