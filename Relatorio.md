@@ -44,7 +44,7 @@ As características territoriais e populacionais têm uma influência importante
 
 ### 3. Territórios maiores têm maior probabilidade de se tornarem áreas de abandono
 
-A maior extensão territorial ($\text{area\_km2}$) amplifica o risco de descarte irregular devido a três fatores inter-relacionados:
+A maior extensão territorial amplifica o risco de descarte irregular devido a três fatores inter-relacionados:
 * **Áreas Não Fiscalizadas e de Baixa Cobertura:** A grande extensão territorial dos bairros acarreta um esforço logístico de fiscalização desproporcional, resultando na baixa frequência de monitoramento e na diminuição da percepção de risco pelos infratores, o que incentiva o descarte irregular em áreas isoladas.
 * Espaços Vazios e Terrenos Baldios: A maior extensão territorial aumenta a disponibilidade de terrenos baldios e espaços vazios, que são percebidos como locais neutros e fora da vista para o descarte clandestino, e frequentemente desencadeiam um efeito contágio que acelera a degradação e o abandono.
 * Trechos Periféricos de Difícil Acesso: A infraestrutura viária deficiente (ruas não pavimentadas e acessos estreitos) em áreas periféricas de bairros grandes impede a circulação eficiente dos caminhões de coleta e fiscalização, criando um ambiente de alta vulnerabilidade que favorece o descarte clandestino de diversos tipos de resíduos.
