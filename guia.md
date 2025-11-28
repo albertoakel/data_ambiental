@@ -188,47 +188,79 @@ Os dados do Censo Demográfico 2010 representam a fonte mais recente e abrangent
 **Fonte:** IBGE. Censo Demográfico 2010. Tabelas 3033 e 3170. SIDRA.
 
 
-
-
-
-
-
 ### Fluxo conceitual
 ```
-[Dataset 1: Socioeconômico - tabela_total_final.csv]   
-           | 
-           v
-[Preparação de Dados]
-  - Limpeza e padronização de nomes de bairros e colunas
-  - Verificação de consistência
+[DATASETS FINAIS DISPONÍVEIS]
+  ├── [Dataset 1: Socioeconômico + DIEs] - tabela_total_com_DIEs.csv
+  ├── [Dataset 2: Geometria dos Bairros] - shape_bairros.gpkg  
+  ├── [Dataset 3: Setores de Coleta] - shape_coleta.gpkg
+  ├── [Dataset 4: Pontos de Descartes] - Pontos_descartes_ML.gpkg
+  └── [Dataset 5: Frequência de Coleta] - Bairros_Ncoleta.csv
+
            |
            v
-[Criação de Indicadores]
-  - Densidade populacional (Moradores / área)        <- tabela_total_final.csv + shape_bairros.gpkg
-  - Renda média e mediana normalizada                <- tabela_total_final.csv
-  - Frequência de coleta relativa                    <- shape_coleta.gpkg - obtidos via webscraping
-  - Índice de descartes (descartes / população ou área) <- shape_bairros.gpkg + Dataset 5 (descartes sintéticos)
+[PREPARAÇÃO E INTEGRAÇÃO DE DADOS] ✅ CONCLUÍDO
+  - Limpeza e padronização de nomes de bairros
+  - Merge das tabelas socioeconômicas (3033 + 3170)
+  - Organização dos shapes e geometrias
+  - Webscraping e estruturação dos dados de coleta
+
            |
            v
-[Normalização dos Indicadores]  <- todos os indicadores anteriores (0–1)
+[CRIAÇÃO DE INDICADORES DE VULNERABILIDADE] ✅ PARCIALMENTE CONCLUÍDO
+  ├── Densidade populacional (Mor / area_km2)
+  ├── Indicadores de renda (ren_avg, ren_mdn, CRA, PPR)
+  ├── Frequência de coleta relativa (dias / 7)
+  ├── Índice de descartes (QTI, DIEs / população)
+  ├── Indicadores de desenvolvimento (IDH, IDH-R, IDH-L, IDH-E)
+  └── Taxa de alfabetização (T.A.)
+
            |
            v
-[Construção do Índice Composto de Vulnerabilidade]
-  - Combinação ponderada dos indicadores
+[ANÁLISE ESTATÍSTICA E CORRELAÇÕES] ✅ CONCLUÍDO
+  - Correlação renda vs. descartes (r = -0.4406)
+  - Correlação IDH vs. descartes (r = -0.4399) 
+  - Correlação área vs. DIEs (r = 0.564)
+  - Correlação população vs. QTI (r = 0.4847)
+  - Correlação densidade vs. descartes (r = 0.420)
+
            |
            v
-[Visualização Geográfica]  
-  - Mapas de calor / cor por bairro ou setor         <- shape_bairros.gpkg + shape_coleta.gpkg + Dataset 5
-  - Sobreposição de setores de coleta                <- shape_coleta.gpkg
+[CONSTRUÇÃO DO ÍNDICE COMPOSTO] ❌ PENDENTE
+  - Normalização dos indicadores (escala 0-1)
+  - Combinação ponderada:
+    Vulnerabilidade = w1·densidade + w2·(1-renda) + w3·(1-frequência_coleta) + w4·descartes
+
            |
            v
-[Análise e Interpretação]
-  - Identificação de regiões críticas               <- resultado do índice + mapas
-  - Avaliação de correlação com frequência de descarte
+[VISUALIZAÇÃO GEOGRÁFICA E MAPAS] ✅ PARCIALMENTE CONCLUÍDO
+  ├── Mapa de setores de coleta (Figura 1)
+  ├── Mapa de renda mediana por bairro (Figura 2)
+  ├── Mapas de correlação IDH vs. QTI (Figura 3)
+  ├── Mapas de densidade vs. descartes (Figura 4)
+  └── Mapa de frequência de coleta (Figura 5)
+
            |
            v
-[Relatórios e Recomendações]
-  - Ações prioritárias para fiscalização            <- todos os resultados anteriores
-  - Estratégias de coleta e intervenção
- 
+[IDENTIFICAÇÃO DE REGIÕES CRÍTICAS] ✅ CONCLUÍDO
+  - Bairros com baixa renda (≤ R$605 mediana)
+  - Bairros com baixo IDH 
+  - Áreas com grande extensão territorial
+  - Regiões com alta densidade populacional
+  - Setores com baixa frequência de coleta (≤3.5 dias/semana)
+
+           |
+           v
+[RELATÓRIOS E RECOMENDAÇÕES ESTRATÉGICAS] ✅ CONCLUÍDO
+  ├── Ações prioritárias para fiscalização
+  ├── Estratégias de coleta e intervenção
+  ├── Plataforma interativa proposta
+  └── Plano de implementação em fases
+
+           |
+           v
+[PRÓXIMAS ETAPAS: PLATAFORMA INTERATIVA] 🎯 FUTURO
+  ├── Aplicativo móvel de geolocalização
+  ├── Painel de gestão pública em tempo real
+  └── Sistema de monitoramento participativo
 ```

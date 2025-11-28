@@ -75,7 +75,7 @@ Desenvolver uma **plataforma digital interativa** que permita o monitoramento co
 
 ## Arquitetura da Solução Proposta
 
-### 1. **Aplicativo Móvel de Geolocalização**
+### 1. **web aplicativo de Geolocalização**
 **Funcionalidades principais:**
 - Registro de descartes irregulares via fotos georreferenciadas
 - Interface simplificada para população de diferentes níveis de alfabetização digital
