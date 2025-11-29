@@ -1,5 +1,7 @@
 ## Resumo Executivo e Técnico: Descarte Irregular de Lixo em Belém
 
+
+
 O estudo socioeconômico e territorial dos bairros de Belém revela uma forte associação entre as condições de desenvolvimento humano e a ocorrência de Depósitos Irregulares de Entulho (DIEs). A análise indica que o descarte irregular está concentrado em áreas de menor desenvolvimento socioeconômico, sendo influenciado por um conjunto de fatores que incluem o tamanho do bairro, a densidade populacional e, de forma mais crítica, a renda e o Índice de Desenvolvimento Humano (IDH).
 
 ## Análise Descritiva e Estatística dos Fatores Determinantes
@@ -126,6 +128,8 @@ O descarte irregular em áreas urbanas, particularmente em cidades costeiras com
 o modelo se destaca pela sua sustentabilidade operacional e escalabilidade. Sua tecnologia de baixo custo de manutenção permite que o projeto seja facilmente adotado por outras cidades da Amazônia que enfrentam desafios logísticos e ambientais semelhantes. O potencial para o estabelecimento de parcerias público-privadas é significativo, permitindo que empresas de reciclagem ou gestores de resíduos usem os dados em tempo real para otimizar suas operações, transformando a informação coletada em valor econômico e ambiental, e garantindo que o projeto evolua de uma análise de dados para uma solução de infraestrutura de dados essencial para a metrópole amazônica
 
 
+Visite nosso github 🔗 https://github.com/albertoakel/data_ambiental para
+maiores detalhes do projeto
 
 --
 
