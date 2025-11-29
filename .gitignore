@@ -6,7 +6,6 @@ workspace.xml
 
 # Diretórios temporários
 **/.virtual_documents/
-**/anaconda_projects/
 **/.ipynb_checkpoints/
 **/__pycache__/
 .ipynb_checkpoints/
