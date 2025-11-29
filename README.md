@@ -33,12 +33,13 @@ pontuais (como mutirões de limpeza), demonstrando falta de estratégias sistêm
 
 Os mapas interativos gerados pelo projeto podem ser acessados diretamente nos links abaixo. Eles fornecem uma **análise espacial** detalhada sobre os pontos de descarte irregular e os indicadores de vulnerabilidade em Belém-PA.
 
-  * **[Mapa Bairros & parametros]**(https://albertoakel.github.io/data_ambiental/mapa_bairros_interativo.html)
-  * **[Mapa Setores de coleta]**(https://albertoakel.github.io/data_ambiental/mapa_setores_coleta.html)
+### [Mapa Bairros & Parâmetros](https://albertoakel.github.io/data_ambiental/mapa_bairros_interativo.html)
+### [Mapa dos setores de Coleta](https://albertoakel.github.io/data_ambiental/mapa_setores_coleta.html)
 
-## Documentos importantes
-  * **[Relatorio 11/25]**(Relatorio.md)
-  * **[Roteiro 11/25]**(guia.md)
+## Documentos Importantes
+
+### [Relatório 11/25]([Relatorio.md](Relatorio.md)) 
+### [Roteiro 11/25]([guia.md](guia.md))
 
 ---
 
