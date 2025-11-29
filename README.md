@@ -36,8 +36,11 @@ Os mapas interativos gerados pelo projeto podem ser acessados diretamente nos li
   * **[Mapa Bairros & parametros]**(https://albertoakel.github.io/data_ambiental/mapa_bairros_interativo.html)
   * **[Mapa Setores de coleta]**(https://albertoakel.github.io/data_ambiental/mapa_setores_coleta.html)
 
----
+## Documentos importantes
+  * **[Relatorio 11/25]**(Relatorio.md)
+  * **[Roteiro 11/25]**(guia.md)
 
+---
 
 ## 📁 Estrutura do Projeto
 ```
