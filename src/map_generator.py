@@ -125,6 +125,8 @@ def generate_interactive_map():
         )
     )
 
+    html_output_path = os.path.join(os.getcwd(), 'mapa_bairros_interativo.html')
+    fig.write_html(html_output_path)
     return fig
 
 # Note: Remova fig.show() daqui. O .ipynb cuidará disso.
