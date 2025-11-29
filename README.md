@@ -38,8 +38,8 @@ Os mapas interativos gerados pelo projeto podem ser acessados diretamente nos li
 
 ## Documentos Importantes
 
-### [Relatório 11/25]([Relatorio.md](Relatorio.md)) 
-### [Roteiro 11/25]([guia.md](guia.md))
+### [Relatório 11/25](Relatorio.md)
+### [Roteiro 11/25](guia.md)
 
 ---
 
