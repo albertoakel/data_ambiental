@@ -105,7 +105,7 @@ O **Índice de Vulnerabilidade ao Descarte Irregular** pode ser calculado como:
 Vulnerabilidade=w1⋅densidade normalizada+w2⋅renda normalizada+w3⋅frequeˆncia de coleta normalizada+w4⋅descartes normalizada
 
 - **Normalização:** todos os indicadores em escala 0–1.  
-- **Pesos \(w_i\):** podem ser iguais inicialmente ou ajustados conforme prioridade do estudo.  
+- **Pesos wiw_i:** podem ser iguais inicialmente ou ajustados conforme prioridade do estudo.  
 
 ---
 

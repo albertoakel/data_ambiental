@@ -5,11 +5,12 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
 import warnings
+import markdown
+
 warnings.filterwarnings(
     "ignore",
     message=".*choropleth_mapbox.*deprecated.*")
-pio.renderers.default = "notebook_connected"
-
+#pio.renderers.default = "notebook_connected"
 
 # Define a função principal que retorna o objeto Plotly
 def generate_interactive_map():
@@ -125,8 +126,31 @@ def generate_interactive_map():
         )
     )
 
-    html_output_path = os.path.join(os.getcwd(), 'mapa_bairros_interativo.html')
-    fig.write_html(html_output_path)
+    #html_output_path = os.path.join(os.getcwd(), 'mapa_bairros_interativo.html')
+    #fig.write_html(html_output_path)
     return fig
 
-# Note: Remova fig.show() daqui. O .ipynb cuidará disso.
+def html_md(fig, md_text, filename_html):
+    # add texto abaixo da plot (fig)
+
+    md_html = markdown.markdown(md_text)
+   #template html
+    html_final = f"""
+    <html>
+    <head>
+    <meta charset="utf-8">
+    </head>
+    <body>
+    <!-- Gráfico -->
+    {fig.to_html(full_html=False, include_plotlyjs='cdn')} 
+
+    <!-- Texto em Markdown convertido -->
+    <div style="margin-top: 30px;">
+    {md_html}
+    </div>
+    </body>
+    </html>
+    """
+
+    with open(filename_html + '.html', "w", encoding="utf-8") as f:
+        f.write(html_final)
