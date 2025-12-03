@@ -72,7 +72,6 @@ feature_palettes = {
     'PPR':'RdBu',
     'nd_med':'RdYlGn'}
 
-
 def get_feature_config(gdf_m, features_to_map, color_palettes, feature_names, feature_palettes):
     """
     Configura todas as features para mapeamento
