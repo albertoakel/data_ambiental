@@ -69,9 +69,8 @@ feature_palettes = {
     'ren_mdn': 'RdYlGn',
     'DIEs':'GnYlRdPu',
     'Dies_cat':'RdYlGn_r',
-    'PPR':'RdBu'
-
-}
+    'PPR':'RdBu',
+    'nd_med':'RdYlGn'}
 
 
 def get_feature_config(gdf_m, features_to_map, color_palettes, feature_names, feature_palettes):
