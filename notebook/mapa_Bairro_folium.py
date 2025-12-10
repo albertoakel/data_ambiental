@@ -12,6 +12,8 @@ from src.feature_config import *
 from src.loader_tmpts import load_template
 
 
+
+
 # Leitura da geometria dos bairros
 path = '/home/akel/PycharmProjects/Data_ambiental/data/process/'
 gdf = gpd.read_file(path + 'shape_bairros.gpkg').rename(

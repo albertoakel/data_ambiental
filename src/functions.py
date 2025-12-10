@@ -757,7 +757,7 @@ def bar_bar_cat(df, cat_1, cat_2, altura=6):
     return contingency_count, contingency_pct
 
 
-def scatterplot_bairro(x1, x2, x3, y, df, hue_var=None):
+def scatterplot_bairro(x1, x2, x3, y, df, hue_var=None,savefilename=None):
     """
     Versão avançada com opção de variável para cor (hue) e retorno de estatísticas
 
@@ -898,8 +898,17 @@ def scatterplot_bairro(x1, x2, x3, y, df, hue_var=None):
         ax.grid(True, alpha=0.2)
 
     plt.tight_layout()
-    plt.show()
 
+    # Salva apenas se um nome foi fornecido
+    if savefilename is not None:
+        # Garante extensão .png
+        filename = savefilename
+        if not filename.lower().endswith('.png'):
+            filename += '.png'
+        plt.savefig(filename, dpi=300, bbox_inches='tight')
+        print(f"Gráfico salvo como: {filename}")
+
+    plt.show()
     # Retornar as estatísticas
     return estatisticas[0], estatisticas[1], estatisticas[2]
 
