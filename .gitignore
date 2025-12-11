@@ -1,15 +1,23 @@
 # PyCharm
 .idea/
 *.iml
-.misc.xml
-workspace.xml
 
-# Diretórios temporários
-**/.virtual_documents/
-**/anaconda_projects/
-**/.ipynb_checkpoints/
+# Python / Jupyter / Cache
+__pycache__/
 **/__pycache__/
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.pyc
+
+# Documentos temporários
 .virtual_documents/
-__pycache__/
-.idea/
+**/.virtual_documents/
+
+# Ambientes / Anaconda
+anaconda_projects/
+**/anaconda_projects/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/*
+app/.streamlit/

@@ -48,6 +48,7 @@ Os mapas interativos gerados pelo projeto podem ser acessados diretamente nos li
 ## 📁 Estrutura do Projeto
 ```
 📁 Data_ambiental/
+├── 📂 app/              # protótipo webapp streamlit 
 ├── 📂 data/
 |   ├──process          # dados organizados ou processados
 |   └──raw              # dados bruto, baixados ou coletados
