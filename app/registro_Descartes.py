@@ -14,6 +14,8 @@ from src.geocode_belem import *
 # Configurações da página
 # =========================
 st.set_page_config(page_title="Registro descartes - Belém", layout="wide")
+#st.title("📍 Registro Descartes 0.3")
+st.image("imagem_capa2.png")
 st.title("📍 Registro Descartes 0.3")
 
 sheet = conectar_sheets("Registro_lixo")
