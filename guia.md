@@ -52,7 +52,7 @@
 - `IDH-E` Índice de desenvolvimento humano Educação
 - `IDH` Índice de desenvolvimento humano
 - `QTI` Quantidade de Depósitos Irregulares
-- `CRA` Mediana da renda dos moradores do bairro
+- `CRA` Concentração Riquiza por area( `Ren_avg x (Mor/Hab)/Area_km`)
 - `PPR` Percentual Populacao_rendimento
 - `DIEs` Quantidade de Depósitos Irregulares estimado
 
