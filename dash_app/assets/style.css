@@ -1,0 +1,38 @@
+/* style.css */
+.dropdown-alto .Select-control {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.dropdown-alto .Select-value {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(+20%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.dropdown-alto .Select-value-label {
+    width: 100%;
+    text-align: center;
+}
+
+.dropdown-alto .Select-placeholder {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(+20%);
+    text-align: center;
+}
+
+.dropdown-alto .Select-arrow-zone {
+    margin-left: auto;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
